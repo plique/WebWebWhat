@@ -6,7 +6,8 @@ body {
 }
 
 #clouds{
-    position: absolute;
+  position: absolute;
+  pointer-events: none;
 }
 
 /*Time to finalise the cloud shape*/
