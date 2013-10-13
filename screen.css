@@ -1,0 +1,17 @@
+body {
+  line-height: 1.5;
+  background-color: #EAEAEA;
+}
+
+.container {
+  max-width: 500px;
+  width: 60%;
+  margin: 1em auto;
+  background-color: #FFF;
+  padding: 2em;
+}
+
+.img-flex {
+  width: 100%;
+  height: auto;
+}
