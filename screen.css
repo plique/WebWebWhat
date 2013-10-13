@@ -26,3 +26,20 @@ body {
   border: 3px solid lightblue;
 }
 
+nav {
+  margin-bottom: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  padding: .5em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-link-home {
+  font-family: 'Verdana', bold;
+  color: green;
+}
