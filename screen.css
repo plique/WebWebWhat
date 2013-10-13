@@ -7,21 +7,22 @@ body {
 }
 
 img {
-      -webkit-transition-duration: 0.8s;
-      -moz-transition-duration: 0.8s;
-      -o-transition-duration: 0.8s;
-      transition-duration: 0.8s;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
 
-      -webkit-transition-property: -webkit-transform;
-      -moz-transition-property: -moz-transform;
-      -o-transition-property: -o-transform;
-      transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
 }
 
 img:hover {
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    -o-transform:rotate(360deg);
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg);
+  transform:rotate(360deg);
 }
 
 .container {
@@ -56,8 +57,40 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-
 .nav-link-home {
   font-family: 'Verdana', bold;
   color: green;
 }
+.nav-link-about {
+  font-family: 'Verdana', bold;
+  color: red;
+}
+.nav-link-jana {
+  font-family: 'Verdana', bold;
+  color: yellow;
+}
+.nav-link-beate {
+  font-family: 'Verdana', bold;
+  color: pink;
+}
+.nav-link-basti {
+  font-family: 'Verdana', bold;
+  color: blue;
+}
+.nav-link-qate {
+  font-family: 'Verdana', bold;
+  color: orange;
+}
+.nav-link-lindsey {
+  font-family: 'Verdana', bold;
+  color: purple;
+}
+.nav-link-kriesse {
+  font-family: 'Verdana', bold;
+  color: red;
+}
+
+
+
+
+
