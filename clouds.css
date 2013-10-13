@@ -2,10 +2,10 @@
 
 body {
     /*To hide the horizontal scroller appearing during the animation*/
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
-#clouds{
+#clouds {
   position: absolute;
   pointer-events: none;
 }
