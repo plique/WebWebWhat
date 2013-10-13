@@ -3,6 +3,7 @@ body {
   color: #333;
   background-color: #EAEAEA;
   font-family: Georgia, serif;
+  background: #000 url('img/nightsky_bg-ani.gif') repeat;
 }
 
 .container {
