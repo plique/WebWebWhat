@@ -56,8 +56,40 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-
 .nav-link-home {
   font-family: 'Verdana', bold;
   color: green;
 }
+.nav-link-about {
+  font-family: 'Verdana', bold;
+  color: red;
+}
+.nav-link-jana {
+  font-family: 'Verdana', bold;
+  color: yellow;
+}
+.nav-link-beate {
+  font-family: 'Verdana', bold;
+  color: pink;
+}
+.nav-link-basti {
+  font-family: 'Verdana', bold;
+  color: blue;
+}
+.nav-link-qate {
+  font-family: 'Verdana', bold;
+  color: orange;
+}
+.nav-link-lindsey {
+  font-family: 'Verdana', bold;
+  color: purple;
+}
+.nav-link-kriesse {
+  font-family: 'Verdana', bold;
+  color: red;
+}
+
+
+
+
+
