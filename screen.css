@@ -6,6 +6,24 @@ body {
   background: #000 url('img/nightsky_bg-ani.gif') repeat;
 }
 
+img {
+      -webkit-transition-duration: 0.8s;
+      -moz-transition-duration: 0.8s;
+      -o-transition-duration: 0.8s;
+      transition-duration: 0.8s;
+
+      -webkit-transition-property: -webkit-transform;
+      -moz-transition-property: -moz-transform;
+      -o-transition-property: -o-transform;
+      transition-property: transform;
+}
+
+img:hover {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+
 .container {
   max-width: 700px;
   width: 90%;
@@ -24,4 +42,22 @@ body {
   height: auto;
   border-radius: 1em;
   border: 3px solid lightblue;
+}
+
+nav {
+  margin-bottom: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  padding: .5em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.nav-link-home {
+  font-family: 'Verdana', bold;
+  color: green;
 }
