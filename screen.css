@@ -6,6 +6,10 @@ body {
   background: #000 url('img/nightsky_bg-ani.gif') repeat;
 }
 
+body, button, input, select, textarea {
+  font-family: "Montserrat", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
 img {
   -webkit-transition-duration: 0.8s;
   -moz-transition-duration: 0.8s;
@@ -31,18 +35,13 @@ img:hover {
   margin: 1.5em auto;
   background-color: #FFF;
   padding: 2em 5%;
-  border-radius: 1em;
-  box-shadow:
-    10px 10px 10px pink,
-    -10px -10px 10px lightblue
-  ;
+  box-shadow: 0 5px 10px #000;
+  text-align: center;
 }
 
 .img-flex {
   width: 100%;
   height: auto;
-  border-radius: 1em;
-  border: 3px solid lightblue;
 }
 
 nav {
