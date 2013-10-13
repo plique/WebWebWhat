@@ -1,12 +1,14 @@
 body {
   line-height: 1.5;
+  color: #333;
   background-color: #EAEAEA;
+  font-family: Georgia, serif;
 }
 
 .container {
-  max-width: 500px;
+  max-width: 700px;
   width: 90%;
-  margin: 1em auto;
+  margin: 1.5em auto;
   background-color: #FFF;
   padding: 2em 5%;
   border-radius: 1em;
@@ -19,4 +21,6 @@ body {
 .img-flex {
   width: 100%;
   height: auto;
+  border-radius: 1em;
+  border: 3px solid lightblue;
 }
